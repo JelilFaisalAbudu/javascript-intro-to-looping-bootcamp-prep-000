@@ -43,4 +43,5 @@ function doWhileLoop(num){
 let k = 0;
 while (k < 10) {
   console.log(incrementVariable())
+  k++;
 }
