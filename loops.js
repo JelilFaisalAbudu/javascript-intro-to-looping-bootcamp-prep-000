@@ -35,12 +35,6 @@ function doWhileLoop(num){
   
   do {
     console.log("I run once regardless.");
-  } while (incrementVariable() < num);
+  } while (incrementVariable < num);
   
-}
-
-let k = 0;
-while (k < 10) {
-  console.log(incrementVariable())
-  k++;
 }
